@@ -1,6 +1,6 @@
 resolvers in ThisBuild += Resolver.sonatypeRepo("snapshots") 
 
-scalaVersion in ThisBuild := "2.11.6"
+scalaVersion in ThisBuild := "2.11.7"
 
 name := "sample"
 
