@@ -21,3 +21,8 @@ lazy val `samplemsgs` = project
 lazy val `samplecube` = project dependsOn `samplemsgs`
 
 lazy val `samplesvc` = project dependsOn (`samplemsgs`, `samplecube`)
+
+xerial.sbt.Pack.packSettings
+
+packMain := Map("run" -> "org.squbs.unicomplex.Bootstrap")
+
