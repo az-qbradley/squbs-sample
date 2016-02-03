@@ -20,6 +20,7 @@ libraryDependencies ++= Seq(
     ),
   "org.squbs" %% "squbs-unicomplex" % squbsV,
   "org.squbs" %% "squbs-actormonitor" % squbsV,
+  "org.squbs" %% "squbs-admin" % squbsV,
   "org.scalatest" %% "scalatest" % scalatestV % "test",
   "org.squbs" %% "squbs-testkit" % squbsV % "test"
 )
